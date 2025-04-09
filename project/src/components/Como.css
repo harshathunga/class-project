@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: #9df3d0;
+    color: black;
+}
+
+ul{
+    display: flex;
+    /* flex-direction: row; */
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px 8px;
+}
+
+nav li a:hover{
+    color: aqua;
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 10%;
+    width: 70%;
+    align-items: center;
+    align-content: center;
+}
+
+.mb-3 label{
+    width: 20%;
+    /* background-color: black; */
+    align-items: center;
+    margin: 10px;
+    align-items: center;
+}
+
+.mb-3 label input{
+    width: 50%;
+}
