@@ -28,7 +28,7 @@ app.use(
 export  const db = mysql2.createConnection({
   host: "localhost",
   user: "root",
-  password: "Tharipriya21@",
+  password: "",
   database: "advance_dev",
 });
 
