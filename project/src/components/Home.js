@@ -218,14 +218,15 @@ function Home() {
             </a>
             {isOpen && (
               <div className="dropdown-content">
-                <a href="/addevent">addevent</a>
-                <a href="/about">About</a>
-                <a href="/profile">Profile</a>
+                {/* <a href="/addevent">addevent</a> */}
+                <a href="https://www.crimemapping.com/Share/66dfeeb3d9874dc78fdf8be1ad7f0c4c">crime reporting</a>
+                {/* <a href="/about">About</a>
+                <a href="/profile">Profile</a> */}
               </div>
             )}
           </li>
           <li>
-            <a href="/logout">logout</a>{" "}
+            {/* <a href="/logout">logout</a>{" "} */}
           </li>
         </ul>
       </nav>

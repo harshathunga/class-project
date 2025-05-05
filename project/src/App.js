@@ -21,7 +21,7 @@ function App() {
           <Route path='/register' element={<Register/>}/>
           <Route path='/login' element={<Login/>}></Route>
           <Route path='/home' element={<Home/>}></Route>
-          <Route path='/addevent' element={<Addevent/>}></Route>
+          {/* <Route path='/addevent' element={<Addevent/>}></Route> */}
         </Routes>
       </Router>
       </AuthProvider>
