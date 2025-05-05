@@ -2,6 +2,7 @@
   "dependencies": {
     "cookie": "^1.0.2",
     "jsonwebtoken": "^9.0.2",
+    "leaflet": "^1.9.4",
     "parser": "^0.1.4"
   }
 }

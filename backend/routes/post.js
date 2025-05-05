@@ -28,7 +28,7 @@ app.use(
 export  const db = mysql2.createConnection({
   host: "localhost",
   user: "root",
-  password: "",
+  password: "Tharipriya21@",
   database: "advance_dev",
 });
 
@@ -62,7 +62,7 @@ router.post("/data", authenticate, (req, res) => {
 });
 
 const verifyjwt = (req, res, next) => {
-  const token = req.headers["x-access-token"];
+  const token = req.headers["x"];
 
   if (!token) {
     res.send("need token");
@@ -72,6 +72,7 @@ const verifyjwt = (req, res, next) => {
         res.json({ auth: false, message: "auth filed" });
       } else {
         req.id = decoded.id;
+        res.json({ auth: true});
 
         console.log(req.id);
         next();
