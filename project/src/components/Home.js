@@ -51,11 +51,11 @@ function Home() {
     return () => clearTimeout(timer);
   }, [searchTerm]);
 
-  // useEffect(() => {
-  //   if (debouncedSearchTerm) {
-  //     fetchEvents(debouncedSearchTerm);
-  //   }
-  // }, [debouncedSearchTerm]);
+  useEffect(() => {
+    if (debouncedSearchTerm) {
+      fetchEvents(debouncedSearchTerm);
+    }
+  }, [debouncedSearchTerm]);
 
   const fetchEvents = async (searchTerm) => {
     const options = {
